@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Icon } from "react-native-elements";
 import EstudianteStack from "./EstudianteStack";
-import  JefedeptoStack from "./JefedeptoStack";
+import JefedeptoStack from "./JefedeptoStack";
 import InstructoresStack from "./InstructorStack";
 import SubdirectoresStack from "./SubdirectorStack";
 import AdministradorStack from "./AdministradorStack";
@@ -14,7 +14,7 @@ export default function Navigation() {
   return (
     <NavigationContainer>
       <Tab.Navigator
-        initialRouteName="restaurants"
+        initialRouteName="estudiante"
         tabBarOptions={{
           inactiveTintColor: "#646464",
           activeTintColor: "#00a680"

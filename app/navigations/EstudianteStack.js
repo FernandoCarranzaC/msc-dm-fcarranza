@@ -1,6 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Estudiantes from "../screens/Estudiante";
+import Estudiante from "../screens/Estudiante/Estudiante";
 
 const Stack = createStackNavigator();
 
@@ -9,7 +9,7 @@ export default function EstudianteStack() {
     <Stack.Navigator>
       <Stack.Screen
         name="estudiante"
-        component={Estudiantes}
+        component={Estudiante}
         options={{ title: "Estudiante" }}
       />
     </Stack.Navigator>

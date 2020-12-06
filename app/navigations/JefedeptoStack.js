@@ -1,6 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Jefesdeptos from "../screens/Jefedepto";
+import Jefesdeptos from "../screens/Jefedepto/Jefedepto";
 
 const Stack = createStackNavigator();
 
